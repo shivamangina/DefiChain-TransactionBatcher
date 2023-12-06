@@ -11,3 +11,6 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+
+The transaction hash is 0xC05D34B7adF88167CA280BF33A5C20C2D54a148b on DefiChain testnet.
+https://testnet3-dmc.mydefichain.com:8445/address/0xC05D34B7adF88167CA280BF33A5C20C2D54a148b
