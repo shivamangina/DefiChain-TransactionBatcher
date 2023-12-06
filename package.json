@@ -1,0 +1,14 @@
+{
+  "name": "defichainmulticall",
+  "author": "Shiva Kumar Mangina <shiva2nani.mangina@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "flatten": "hardhat flatten ./contracts/Lock.sol > flatten/flattenedMulticall.sol",
+    "deploy": "hardhat run --network defichain scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
+  }
+}
